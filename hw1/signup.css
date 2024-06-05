@@ -1,0 +1,170 @@
+body{
+    margin: 0px;
+    background-image: url('/hw1/img/registrazione.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: Helvetica;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: underline;
+    color: #252526;
+}
+
+a:hover{
+    color: #0040e5;
+}
+
+.button{
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+
+#home{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#img_logo{
+    margin-top: -30px;
+    width: 150px;
+}
+
+.error{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #d40909;
+    height: 55px;
+    border-bottom: 2px solid #d40909;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#div_form {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"]
+ {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center; /* Centra il testo all'interno dell'input */
+    background-color: #e9ebf0;
+    border-color: #e9ebf0;
+    color: #5f6166;
+    height: 55px;
+}
+
+.condition {
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5rem;
+    
+    color: #252526;
+}
+
+.submit {
+    text-align: center;
+    font-weight: bold;
+}
+
+#submit {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077DA;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 100%;
+    height: 55px;
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+#submit:hover {
+    background-color: #005FAE;
+}
+
+.login{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+.errorj label {
+    color: #d40909;
+}
+
+.errorj span {
+    display: block;
+    color: #d40909;
+    font-size: 14px;
+    margin-top: 5px;
+    opacity: 1;
+    padding-top: 4px;
+}
+
+.errorj input {
+    border-bottom: 2px solid #d40909;
+}
+
+span {
+    display: none;
+}
+

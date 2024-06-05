@@ -1,0 +1,116 @@
+body{
+    margin: 0px;
+    background-image: url('/hw1/img/profilo.png');    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: Helvetica;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: underline;
+    color: #252526;
+}
+
+a:hover{
+    color: #0040e5;
+}
+
+.button{
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+
+#home{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#img_logo{
+    margin-top: -30px;
+    width: 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#div_main {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-bottom: 20px; 
+}
+
+.raccomandazioni{
+    font-size: 16px;
+}
+
+.div_main_item{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.div_main_echo{
+    font-weight: bold;
+}
+
+.info_item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #e9ebf0;
+    height: 40px;
+}
+
+.info_item:hover{
+    border-bottom: 2px solid #616168;
+}
+
+span {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #00000053;
+}
+
+.info_item p {
+    font-size: 16px;
+}
+
+.linea {
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+#elimina_account a {
+    font-size: 17px;
+    color: #0077da;
+    text-decoration: none;
+}
+
+#elimina_account a:hover {
+    text-decoration: underline;
+}

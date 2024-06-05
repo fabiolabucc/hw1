@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    background-image: url('/hw1/img/registrazione.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: Helvetica;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: underline;
+    color: #252526;
+}
+
+a:hover{
+    color: #0040e5;
+}
+
+.button{
+        margin: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+}
+
+#home{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#img_logo{
+    margin-top: -30px;
+    width: 150px;
+}
+
+.error{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #d40909;
+    height: 55px;
+    border-bottom: 2px solid #d40909;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.h{
+    padding-bottom: 25px;
+}
+
+#div_form {
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 60px;
+    width: 550px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    padding-top: 10px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left; 
+}
+
+input[type="text"],
+input[type="password"]
+ {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #e9ebf0;
+    border-color: #e9ebf0;
+    color: #5f6166;
+    height: 55px;
+}
+
+.submit {
+    text-align: center;
+}
+
+#submit {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0077DA;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 100%;
+    height: 55px;
+    cursor: pointer;
+    transition: background-color 0.2s; 
+}
+
+#submit:hover {
+    background-color: #005FAE;
+}
+
+.signup{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 17px;
+}
+
+.errorj label {
+    color: #d40909;
+}
+
+.errorj input {
+    border-bottom: 2px solid #d40909;
+}
+

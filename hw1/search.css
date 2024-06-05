@@ -1,0 +1,112 @@
+body{
+    background-color: #030c40;   
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+nav{
+    background-color: white;
+    color: black;
+
+    display:flex;
+    justify-content: space-around;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    align-items: center;
+}
+
+.img_disney{
+    width: 50%;
+}
+
+form{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#character{
+    border-radius: 15px;
+    border: none;
+}
+
+
+#submit{
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#lente{
+    width: 10px;
+}
+
+#submit:hover{
+    background-color: #F1F2F9;
+}
+
+#library-view{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-info{
+    background-color: #F1F2F3;
+    margin: 10px;
+    padding: 20px;
+    width: 1000px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.character-info img{
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.character-info h3{
+    text-align: center;
+    margin-top: 5px;
+    color: #030c40;
+    font-weight: bold;
+}
+
+.character-info p{
+    margin-bottom: 5px;
+}
+
+.character-info .colorSpan{
+    color: #030c40;
+    font-weight: bold;
+}
+
+.error-hidden {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.error-hidden img {
+    width: 300px;
+}
+
+.error-hidden p {
+    color: white;
+    font-size: 20px;
+}
+
